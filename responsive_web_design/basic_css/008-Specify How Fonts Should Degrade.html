@@ -4,12 +4,31 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Change the text color</title>
+    <title>Specify How Fonts Should DegradePassed</title>
 </head>
 <body>
-    <h2 style="color: red;">CatPhotoApp</h2>
+    <!-- <link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet" type="text/css"> -->
+    <style>
+        .red-text {
+            color: red;
+        }
+        
+        h2 {
+            font-family: Lobster;
+        }
+        
+        p {
+            font-size: 16px;
+            font-family: monospace;
+        }
+        h2 {
+            font-family: lobster, monospace;
+        }
+    </style>
+    
+    <h2 class="red-text">CatPhotoApp</h2>
     <main>
-        <p>Click here to view more <a href="#">cat photos</a>.</p>
+        <p class="red-text">Click here to view more <a href="#">cat photos</a>.</p>
         
         <a href="#"><img src="https://bit.ly/fcc-relaxing-cat" alt="A cute orange cat lying on its back."></a>
         
