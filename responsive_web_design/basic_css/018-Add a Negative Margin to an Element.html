@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Add a Negative margin to an Element</title>
+    <style>
+        .injected-text {
+            text-align: center;
+            margin-bottom: -25px;
+        }
+
+        .box {
+            border-width: 5px;
+            border-style: solid;
+            border-color: black;
+            text-align: center;
+        }
+
+        .yellow-box {
+            padding: 10px;
+            background-color: yellow;
+        }
+
+        .red-box {
+            color: white;
+            padding: 10px;
+            margin: -15px;
+            background-color: red;
+        }
+
+        .blue-box {
+            color: white;
+            padding: 10px;
+            margin: -15px;
+            background-color: blue;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="box yellow-box">
+        <h5 class="box red-box">Padding</h5>
+        <h5 class="box blue-box">Padding</h5>
+    </div>
+</body>
+</html>
