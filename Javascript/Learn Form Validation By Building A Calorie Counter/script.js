@@ -30,4 +30,6 @@ function addEntry() {
     placeholder="Calories"
   />`;
 
+  targetInputContainer.innerHTML += HTMLString;
+
 }
