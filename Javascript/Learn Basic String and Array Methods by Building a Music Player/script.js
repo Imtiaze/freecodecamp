@@ -120,3 +120,10 @@ const sortSongs = () => {
 };
 
 renderSongs(sortSongs());
+
+
+const numbers = [10, 20, 30, 40, 50];
+
+// Find the first number greater than 25
+const foundNumber = numbers.find((number) => number > 25);
+console.log(foundNumber); // Output: 30
