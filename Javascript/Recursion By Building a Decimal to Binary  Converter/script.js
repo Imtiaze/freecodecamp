@@ -7,6 +7,8 @@ const decimalToBinary = (input) => {
   const quotients = [];
   const remainders = [];
 
+
+
   while (input > 0) {
     const quotient = Math.floor(input / 2);
     const remainder = input % 2;
@@ -21,7 +23,7 @@ const decimalToBinary = (input) => {
   console.log("Quotients: ", quotients);
   console.log("Remainders: ", remainders);
 
-  
+  result.innerText = remainders.reverse().join("");
 };
 
 const checkUserInput = () => {
