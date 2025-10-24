@@ -1,0 +1,62 @@
+
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background: #f4f4f9;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      margin: 0;
+    }
+
+    .converter-container {
+      background: #ffffff;
+      padding: 40px;
+      border-radius: 12px;
+      box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+      text-align: center;
+      width: 320px;
+    }
+
+    h1 {
+      margin-bottom: 24px;
+      font-size: 1.8rem;
+      color: #333;
+    }
+
+    input[type="number"] {
+      width: 80%;
+      padding: 12px;
+      font-size: 1rem;
+      border: 2px solid #ddd;
+      border-radius: 8px;
+      margin-bottom: 20px;
+      outline: none;
+      transition: border-color 0.3s;
+    }
+
+    input[type="number"]:focus {
+      border-color: #6c63ff;
+    }
+
+    button {
+      padding: 12px 24px;
+      font-size: 1rem;
+      background-color: #6c63ff;
+      color: #fff;
+      border: none;
+      border-radius: 8px;
+      cursor: pointer;
+      transition: background-color 0.3s;
+    }
+
+    button:hover {
+      background-color: #5751d1;
+    }
+
+    #output {
+      margin-top: 24px;
+      font-size: 1.2rem;
+      color: #333;
+      min-height: 24px;
+    }
