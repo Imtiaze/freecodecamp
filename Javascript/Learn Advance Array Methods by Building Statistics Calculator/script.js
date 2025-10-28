@@ -1,12 +1,11 @@
-const calculate = (e) => {
+const getMean = (array) => array.reduce((acc, el) => acc + el, 0) / array.length;
 
+const calculate = () => {
   const value = document.querySelector("#numbers").value;
-    console.log(value)
+  const array = value.split(/,\s*/g);
+  const numbers = array.map(el => Number(el)).filter(el => !isNaN(el));
+  console.log(numbers)
+  const mean = getMean(numbers);
+
+  document.querySelector("#mean").textContent = mean;
 }
-
-
-
-document.querySelector('form').addEventListener('submit', function (e) {
-  e.preventDefault();
-  calculate();
-});
